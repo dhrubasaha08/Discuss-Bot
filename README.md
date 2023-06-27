@@ -55,7 +55,7 @@ This repository contains a Python-based auto-response bot that leverages the Git
 
 
 ## Dependencies
-[![GitHub](https://img.shields.io/github/pipenv/locked/dependency-version/dhrubasaha08/discuss-bot/openai?style=flat-square)](https://github.com/{dhrubasaha08}/{discuss-bot}/blob/main/requirements.txt)
+[![GitHub](https://img.shields.io/github/pipenv/locked/dependency-version/dhrubasaha08/discuss-bot/openai?style=flat-square)](https://github.com/dhrubasaha08/discuss-bot/blob/main/requirements.txt)
 
 The following dependencies are required to run Discuss Bot:
 - `Python` (3.10 or higher)
