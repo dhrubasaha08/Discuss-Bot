@@ -1,20 +1,20 @@
 # Discuss Bot
-This repository contains a Python-based auto-response bot that leverages the GitHub API and OpenAI's language model to automatically generate responses to discussions on GitHub. The bot monitors GitHub repository discussions and provides concise solutions to problems posted by users. The bot utilizes the GitHub API to fetch discussions from a specified repository and OpenAI's GPT-3.5 Turbo model to generate helpful responses. It identifies discussions  and adds a generated solution as a comment.
+[![GitHub](https://img.shields.io/github/license/dhrubasaha08/discuss-bot)](LICENSE)
 
+This repository contains a Python-based auto-response bot that leverages the GitHub API and OpenAI's language model to automatically generate responses to discussions on GitHub. The bot monitors GitHub repository discussions and provides concise solutions to problems posted by users. The bot utilizes the GitHub API to fetch discussions from a specified repository and OpenAI's GPT-3.5 Turbo model to generate helpful responses. It identifies discussions and adds a generated solution as a comment.
 
 ## Features
 - Seamless integration with the GitHub repository discussion tab.
 - Advanced natural language processing (NLP) for enhanced understanding and response generation.
-- Monitors GitHub repository discussions
-- Generates concise solutions using OpenAI's GPT-3.5 Turbo language model
-- Automatically adds generated solutions as comments to discussions
-- Supports customization through environment variables and GraphQL queries/mutations
+- Monitors GitHub repository discussions.
+- Generates concise solutions using OpenAI's GPT-3.5 Turbo language model.
+- Automatically adds generated solutions as comments to discussions.
+- Supports customization through environment variables and GraphQL queries/mutations.
 
-### Usage
+## Usage
 - Set up your GitHub and OpenAI API credentials in the environment variables.
 - Configure the repository details, API URL, and access token in the code.
 - Refer to the `.env.example` file to see the required variables.
-
 
 ## Setup
 - Clone the repository:
@@ -41,7 +41,6 @@ This repository contains a Python-based auto-response bot that leverages the Git
   python main.py
   ```
 
-
 ## File Structure
 ```
 /.github/workflows/auto_response.yml
@@ -49,13 +48,17 @@ This repository contains a Python-based auto-response bot that leverages the Git
 /.gitignore
 /LICENSE
 /main.py
+/Pipfile
+/Pipfile.lock
 /README.md
 /requirements.txt
 ```
 
-
 ## Dependencies
-[![GitHub](https://img.shields.io/github/pipenv/locked/dependency-version/dhrubasaha08/discuss-bot/openai?style=flat-square)](https://github.com/dhrubasaha08/discuss-bot/blob/main/requirements.txt)
+[![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue)](https://www.python.org/downloads/)
+[![dotenv Version](https://img.shields.io/badge/dotenv-0.19.1%20%7C%20%3E=0.20.0-blue)](https://pypi.org/project/python-dotenv/)
+[![requests Version](https://img.shields.io/badge/requests-2.26.0%20%7C%20%3E=2.27.0-blue)](https://pypi.org/project/requests/)
+[![openai Version](https://img.shields.io/badge/openai-0.27.0%20%7C%20%3E=0.28.0-blue)](https://pypi.org/project/openai/)
 
 The following dependencies are required to run Discuss Bot:
 - `Python` (3.10 or higher)
@@ -66,8 +69,11 @@ The following dependencies are required to run Discuss Bot:
 ## License
 DiscussBot is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the code as per the terms of the license.
 
-
 ## Contributing
+[![GitHub contributors](https://img.shields.io/github/contributors/d
+
+hrubasaha08/discuss-bot)](https://github.com/dhrubasaha08/discuss-bot/graphs/contributors)
+
 Contributions are welcome and encouraged! If you'd like to contribute to DiscussBot, please follow these steps:
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
@@ -76,10 +82,8 @@ Contributions are welcome and encouraged! If you'd like to contribute to Discuss
 - Submit a pull request with a detailed description of your changes.
 Please adhere to the code style guidelines and maintain clear commit messages to help with the review process.
 
-
 ## Acknowledgements
 DiscussBot is built upon the powerful capabilities of OpenAI's natural language processing. We extend our gratitude to the entire OpenAI community for their valuable contributions.
-
 
 ## Contact
 If you have any questions, suggestions, or feedback, please reach out to me at [@dhrubasaha08](https://github.com/dhrubasaha08/).
