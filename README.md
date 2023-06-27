@@ -1,5 +1,7 @@
 # Discuss Bot
-[![GitHub](https://img.shields.io/github/license/dhrubasaha08/discuss-bot)](LICENSE)
+[![GitHub](https://img.shields.io/github/license/dhrubasaha08/discuss-bot)](LICENSE) 
+[![GitHub contributors](https://img.shields.io/github/contributors/dhrubasaha08/discuss-bot)](https://github.com/dhrubasaha08/discuss-bot/graphs/contributors) 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/dhrubasaha08)
 
 This repository contains a Python-based auto-response bot that leverages the GitHub API and OpenAI's language model to automatically generate responses to discussions on GitHub. The bot monitors GitHub repository discussions and provides concise solutions to problems posted by users. The bot utilizes the GitHub API to fetch discussions from a specified repository and OpenAI's GPT-3.5 Turbo model to generate helpful responses. It identifies discussions and adds a generated solution as a comment.
 
@@ -45,6 +47,7 @@ This repository contains a Python-based auto-response bot that leverages the Git
 ```
 /.github/workflows/auto_response.yml
 /.env
+/.env.example
 /.gitignore
 /LICENSE
 /main.py
@@ -70,10 +73,6 @@ The following dependencies are required to run Discuss Bot:
 DiscussBot is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the code as per the terms of the license.
 
 ## Contributing
-[![GitHub contributors](https://img.shields.io/github/contributors/d
-
-hrubasaha08/discuss-bot)](https://github.com/dhrubasaha08/discuss-bot/graphs/contributors)
-
 Contributions are welcome and encouraged! If you'd like to contribute to DiscussBot, please follow these steps:
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
